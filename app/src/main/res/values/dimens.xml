@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_pic_w">140dp</dimen>
+    <dimen name="user_pic_h">140dp</dimen>
+    <dimen name="badge_txt_s">16sp</dimen>
+    <dimen name="badge_pic_w">90dp</dimen>
+    <dimen name="badge_pic_h">90dp</dimen>
+    <dimen name="_badge_pic_h">80dp</dimen>
+    <dimen name="_badge_pic_w">80dp</dimen>
+</resources>

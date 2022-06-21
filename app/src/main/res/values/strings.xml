@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Candyspace Apps</string>
+    <string name="user_main_tags">Main Tags</string>
+    <string name="unavailable">Place unavailable</string>
+    <string name="badges">Badges</string>
+    <string name="search_item">Searching name</string>
+    <string name="previously_visited">Previously Visited </string>
+    <string name="rep">Reputation</string>
+    <string name="creation_date">Date of Creation</string>
+    <string name="insert_name">Insert name </string>
+</resources>

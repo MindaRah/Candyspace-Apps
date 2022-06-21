@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="18dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/black"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="14dp"
+            android:textColor="@color/yellow"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/imageView" />
+
+        <TextView
+            android:id="@+id/member_from"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintLeft_toRightOf="@id/imageView"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/user_pic_w"
+            android:layout_height="@dimen/user_pic_h"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:foregroundGravity="center"
+            android:contentDescription="@null"
+            android:backgroundTint="@color/blue"
+            android:background="@color/blue"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/badge_gol"
+            android:layout_width="@dimen/_badge_pic_w"
+            android:layout_height="@dimen/_badge_pic_h"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintRight_toLeftOf="@+id/badge_sil"
+            app:layout_constraintTop_toBottomOf="@id/member_from"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_badge_gol" />
+
+        <TextView
+            android:id="@+id/badge_g"
+            android:background="@drawable/ic_circle_gol"
+            style="@style/text_circle"
+            app:layout_constraintBottom_toBottomOf="@id/badge_gol"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="@id/badge_gol"
+            app:layout_constraintRight_toRightOf="@id/badge_gol"
+            app:layout_constraintTop_toTopOf="@id/badge_gol"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/badge_sil"
+            android:layout_marginEnd="8dp"
+            android:layout_width="@dimen/_badge_pic_w"
+            android:layout_height="@dimen/_badge_pic_h"
+            app:layout_constraintRight_toLeftOf="@+id/badge_bro"
+            app:layout_constraintTop_toBottomOf="@id/member_from"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_badge_sil" />
+
+        <TextView
+            android:id="@+id/badge_s"
+            android:background="@drawable/ic_circle_sil"
+            style="@style/text_circle"
+            app:layout_constraintBottom_toBottomOf="@id/badge_sil"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="@id/badge_sil"
+            app:layout_constraintRight_toRightOf="@id/badge_sil"
+            app:layout_constraintTop_toTopOf="@id/badge_sil" />
+
+        <TextView
+            android:id="@+id/previously_visited"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/badge_bro"
+            android:gravity="end"
+            android:textSize="14sp"
+            android:typeface="serif"
+            android:textColor="@color/previously_visited"
+            android:layout_marginEnd="12dp"/>
+
+
+        <ImageView
+            android:id="@+id/badge_bro"
+            android:layout_width="@dimen/_badge_pic_w"
+            android:layout_height="@dimen/_badge_pic_h"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/member_from"
+            android:src="@drawable/ic_badge_bro"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/badge_b"
+            android:background="@drawable/ic_circle_bro"
+            style="@style/text_circle"
+            app:layout_constraintBottom_toBottomOf="@id/badge_bro"
+            app:layout_constraintLeft_toLeftOf="@id/badge_bro"
+            app:layout_constraintRight_toRightOf="@id/badge_bro"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintTop_toTopOf="@id/badge_bro"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

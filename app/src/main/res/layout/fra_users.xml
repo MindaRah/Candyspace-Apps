@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".model.view.ui.users.UsersInfoFra"
+    android:padding="12dp">
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:trackCornerRadius="20dp"
+        app:trackColor="@color/progress_bar"
+        app:trackThickness="10dp" />
+
+    <EditText
+        android:id="@+id/search_e"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/insert_name"
+        android:inputType="textPersonName"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:autofillHints="name"/>
+
+
+    <Button
+        android:id="@+id/search_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/search_item"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textSize="@dimen/badge_txt_s"
+        android:textAllCaps="false"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recyclerView_users"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

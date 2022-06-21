@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_badge_bronze.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_badge_bro.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_badge_bronze.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_badge_gol.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_badge_pic_bro.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_badge_pic_gol.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_badge_pic_sil.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_badge_sil.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_circle_bro.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/ic_circle_gol.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/ic_circle_sil.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_place.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ic_round_bronze.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fra_user_info.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/fra_users.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/frag_user_info.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/frag_users.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_main_tags.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_item.xml" value="0.2796875" />
+        <entry key="app/src/main/res/layout/layout_user_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
